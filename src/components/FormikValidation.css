@@ -1,0 +1,29 @@
+.youtube-form{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+label{
+    font-weight: 600;
+    display: block;
+    margin: 10px 0 ;
+}
+
+input{
+    font-weight: 600;
+    display: block;
+    width: 15rem;
+    min-height: 25px;
+    border: grey 2px solid;
+}
+
+.submit{
+    margin: 10px 0 0 0;
+}
+.error{
+    color: red;
+    font-size: 12px;
+}
